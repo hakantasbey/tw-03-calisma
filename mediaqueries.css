@@ -1,0 +1,105 @@
+@media screen and (max-width: 1200px) {
+    body {
+      /* width: 250px;
+    height: 450px; */
+      background-color: orange;
+    }
+    div.firstpic {
+      width: 50%;
+      margin: auto;
+      border: 2px solid red;
+      display: block;
+      /* flex-shrink: 3;
+      overflow: hidden; */
+    }
+    img {
+      margin: auto;
+      width: 500px;
+      /* height: 100%; */
+    }
+    div.secondpic {
+      display: none;
+    }
+    div ul {
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      gap: 1rem;
+      justify-content: center;
+    }
+    div.thirdpic {
+      display: none;
+    }
+    div.fourthpic {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    body {
+      background-color: aqua;
+    }
+    div.secondpic {
+      width: 50%;
+      margin: auto;
+      display: block;
+    }
+    div.firstpic {
+      display: none;
+    }
+    div.thirdpic {
+      display: none;
+    }
+    div.fourthpic {
+      display: none;
+    }
+    div ul {
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      gap: 1rem;
+      justify-content: center;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    body {
+      background-color: purple;
+    }
+    div.thirdpic {
+      width: 50%;
+      margin: auto;
+      display: block;
+    }
+    div.fourthpic {
+      display: none;
+    }
+    div.secondpic {
+      display: none;
+    }
+    div.firstpic {
+      display: none;
+    }
+    div ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+    }
+    div.fourthpic {
+      width: 50%;
+      margin: auto;
+      display: block;
+    }
+    div.secondpic {
+      display: none;
+    }
+    div.firstpic {
+      display: none;
+    }
+    div.thirdpic {
+      display: none;
+    }
+  }
